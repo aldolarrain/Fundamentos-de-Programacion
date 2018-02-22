@@ -1,0 +1,18 @@
+#include "stdafx.h"
+#include <iostream>
+#include "conio.h"
+using namespace std;
+
+void main () {
+	float b,a,c,x;
+	cout<<"ingrese b:";
+	cin>>b;
+	cout<<"ingrese a:";
+	cin>>a;
+	cout<<"ingrese c:";
+	cin>>b;
+	x=(b*b)-(4*a*c);
+	cout<<"x es igual a:"<<x;
+	cout<<endl;
+	getch();
+}
